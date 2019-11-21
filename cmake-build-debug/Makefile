@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/teste.dir/build.make CMakeFiles/teste.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/graphics/window.o: src/graphics/window.cpp.o
+
+.PHONY : src/graphics/window.o
+
+# target to build an object file
+src/graphics/window.cpp.o:
+	$(MAKE) -f CMakeFiles/teste.dir/build.make CMakeFiles/teste.dir/src/graphics/window.cpp.o
+.PHONY : src/graphics/window.cpp.o
+
+src/graphics/window.i: src/graphics/window.cpp.i
+
+.PHONY : src/graphics/window.i
+
+# target to preprocess a source file
+src/graphics/window.cpp.i:
+	$(MAKE) -f CMakeFiles/teste.dir/build.make CMakeFiles/teste.dir/src/graphics/window.cpp.i
+.PHONY : src/graphics/window.cpp.i
+
+src/graphics/window.s: src/graphics/window.cpp.s
+
+.PHONY : src/graphics/window.s
+
+# target to generate assembly for a file
+src/graphics/window.cpp.s:
+	$(MAKE) -f CMakeFiles/teste.dir/build.make CMakeFiles/teste.dir/src/graphics/window.cpp.s
+.PHONY : src/graphics/window.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/graphics/window.o"
+	@echo "... src/graphics/window.i"
+	@echo "... src/graphics/window.s"
 .PHONY : help
 
 
