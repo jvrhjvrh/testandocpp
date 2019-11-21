@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(libs/GLFW)
 
-add_executable(teste main.cpp)
+add_executable(teste main.cpp src/graphics/window.h)
 
 target_link_libraries(teste glfw ${GLFW_LIBRARIES})

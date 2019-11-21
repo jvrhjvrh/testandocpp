@@ -85,6 +85,9 @@
 		<Unit filename="/home/joao/CLionProjects/teste/main.cpp">
 			<Option target="teste"/>
 		</Unit>
+		<Unit filename="/home/joao/CLionProjects/teste/src/graphics/window.h">
+			<Option target="teste"/>
+		</Unit>
 		<Unit filename="/home/joao/CLionProjects/teste/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
