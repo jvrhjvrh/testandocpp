@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/teste.dir/main.cpp.o CMakeFiles/teste.dir/src/graphics/window.cpp.o  -o teste -lglfw 
+/usr/bin/c++  -g   CMakeFiles/teste.dir/main.cpp.o CMakeFiles/teste.dir/src/graphics/window.cpp.o  -o teste -lglfw /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so 

@@ -53,8 +53,12 @@ vulkan/vulkan.h
 /home/joao/CLionProjects/teste/main.cpp
 src/graphics/window.h
 /home/joao/CLionProjects/teste/src/graphics/window.h
+GL/glew.h
+-
 
 /home/joao/CLionProjects/teste/src/graphics/window.h
+GL/glew.h
+-
 glfw3.h
 -
 iostream
