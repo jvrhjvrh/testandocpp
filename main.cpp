@@ -1,4 +1,3 @@
-
 #include "src/graphics/window.h"
 #include <GL/glew.h>
 int main()
