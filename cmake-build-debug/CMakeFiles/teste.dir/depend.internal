@@ -3,9 +3,9 @@
 
 CMakeFiles/teste.dir/main.cpp.o
  ../libs/GLFW/glfw3.h
- /home/joao/CLionProjects/teste/main.cpp
- /home/joao/CLionProjects/teste/src/graphics/window.h
+ /home/jvrh/CLionProjects/testandocpp/main.cpp
+ /home/jvrh/CLionProjects/testandocpp/src/graphics/window.h
 CMakeFiles/teste.dir/src/graphics/window.cpp.o
  ../libs/GLFW/glfw3.h
- /home/joao/CLionProjects/teste/src/graphics/window.cpp
- /home/joao/CLionProjects/teste/src/graphics/window.h
+ /home/jvrh/CLionProjects/testandocpp/src/graphics/window.cpp
+ /home/jvrh/CLionProjects/testandocpp/src/graphics/window.h

@@ -8,6 +8,8 @@ namespace sparky{
     namespace graphics{
 
         void windowResize(GLFWwindow *window, int width, int height);
+        void errorCallback(int error, const char* description);
+
         Window::Window(const char *title, int width, int height) {
             m_Title = title;
             m_Width = width;
@@ -22,9 +24,9 @@ namespace sparky{
         }
 
         bool Window::init() {
-
+            glfwSetErrorCallback(errorCallback);
             if(!glfwInit()){
-                std::cout << "Failed to initialize GLFW" << std::endl;
+                std::cout << glfwGetError(nullptr) << std::endl;
                 return false;
             }
             m_Window = glfwCreateWindow(m_Width, m_Height, m_Title, nullptr, nullptr);
@@ -60,6 +62,9 @@ namespace sparky{
 
         void windowResize(GLFWwindow *window, int width, int height){
             glViewport(0,0, width, height);
+        }
+        void errorCallback(int error, const char *description){
+            fprintf(stderr, "Error: %s\n", description);
         }
     }
 }
