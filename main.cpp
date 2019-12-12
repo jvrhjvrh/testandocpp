@@ -2,11 +2,14 @@
 #include <GL/glew.h>
 int main()
 {
-    sparky::graphics::Window window("Sparky!",960,540);
+    sparky::graphics::Window window("Minha Engine!",960,540);
     glClearColor(0.2f, 0.3f, 0.8f, 1.0f);
 
     while(!window.closed()){
         window.clear();
+        if(window.isKeyPressed(GLFW_KEY_A)){
+            std::cout << "Pressed" << std::endl;
+        }
         glBegin(GL_TRIANGLES);
         glVertex2f(-0.5f, -0.5f);
         glVertex2f(0.0f, 0.5f);
