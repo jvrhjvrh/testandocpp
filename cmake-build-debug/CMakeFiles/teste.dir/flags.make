@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jvrh/CLionProjects/testandocpp/libs/GLFW 
+CXX_INCLUDES = -I/home/joao/CLionProjects/testandocpp/libs/GLFW 
 

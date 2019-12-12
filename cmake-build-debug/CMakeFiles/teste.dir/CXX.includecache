@@ -50,17 +50,17 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/home/jvrh/CLionProjects/testandocpp/main.cpp
+/home/joao/CLionProjects/testandocpp/main.cpp
 src/graphics/window.h
-/home/jvrh/CLionProjects/testandocpp/src/graphics/window.h
+/home/joao/CLionProjects/testandocpp/src/graphics/window.h
 GL/glew.h
 -
 
-/home/jvrh/CLionProjects/testandocpp/src/graphics/window.cpp
+/home/joao/CLionProjects/testandocpp/src/graphics/window.cpp
 window.h
-/home/jvrh/CLionProjects/testandocpp/src/graphics/window.h
+/home/joao/CLionProjects/testandocpp/src/graphics/window.h
 
-/home/jvrh/CLionProjects/testandocpp/src/graphics/window.h
+/home/joao/CLionProjects/testandocpp/src/graphics/window.h
 GL/glew.h
 -
 glfw3.h
